@@ -54,20 +54,20 @@ public void relocate2() {
 
 public void row1() {
   dp4();
-  relocate1();
 }
 
 public void row2() {
+  relocate1();
   dp3();
-  relocate2();
 }
 
 public void row3() {
+  relocate2();
   dp2();
-  relocate1();
 }
 
 public void row4() {
+  relocate1();
   dp();
 }
     
