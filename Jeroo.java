@@ -31,25 +31,25 @@ public void dp2() {
 }
 
 public void dp() {
-  turn(LEFT);
   hop();
   turn(RIGHT);
   hop();
   plant();
+  turn(LEFT);
 }
 
 public void relocate1() {
+  hop();
+  hop();
   turn(LEFT);
-  hop();
-  hop();
   turn(LEFT);
 }
 
 public void relocate2() {
-  hop();
   turn(RIGHT);
   hop();
   turn(RIGHT);
+  hop();
 }
 
 public void row1() {
